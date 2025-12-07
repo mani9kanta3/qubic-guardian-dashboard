@@ -853,7 +853,6 @@ def page_risk(df: pd.DataFrame):
                     "Side": row.get("side"),
                     "Risk": row.get("effective_risk"),
                     "Anomaly tags": row.get("risk_tags_anamoly"),
-                    "TxID": row.get("txid", ""),
                 }
             )
         alert_df = pd.DataFrame(rows)
