@@ -158,10 +158,40 @@ No exchange or trader wants to manually monitor hundreds of trades.
 - Plotly  
 
 ### **Alerting**
-- Telegram Bot API  
+- Telegram Bot API
+---
+## 📡 EasyConnect Webhook & Raw Alerts
+
+Qubic Guardian uses Qubic's EasyConnect integration to receive real-time trade events.
+
+Below is an example of the raw incoming alert message captured from EasyConnect:
+<img width="1373" height="128" alt="image" src="https://github.com/user-attachments/assets/1b5b55c0-e7a9-41db-9269-6004147f0d55" />
+
+
 
 ---
+## ⚙️ n8n Workflow Overview
 
+The automation pipeline built in n8n performs:
+
+1. Webhook ingestion  
+2. Price enrichment (MEXC)  
+3. Feature extraction  
+4. Base risk scoring  
+5. Anomaly detection  
+6. LLM summary generation  
+7. Save to Google Sheets  
+8. Send Telegram Alerts  
+9. Provide API endpoint for Streamlit
+
+#### **Main Guardian Workflow**
+<img width="1323" height="240" alt="image" src="https://github.com/user-attachments/assets/bedad03c-7496-48d0-9955-8a706d36f228" />
+
+
+#### **Dashboard Data API Workflow**
+<img width="868" height="247" alt="image" src="https://github.com/user-attachments/assets/68c602a8-36d0-4f43-9b81-84542653f0ea" />
+
+---
 ## 🖥️ Dashboard 
 
 ### 📌 Page 1 — Real-Time Transaction Monitor
