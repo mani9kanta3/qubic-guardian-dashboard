@@ -1149,7 +1149,7 @@ def main():
     # ---- Sidebar layout: logo -> nav -> filters ----
     with st.sidebar:
         st.markdown('<div class="sidebar-logo">', unsafe_allow_html=True)
-        st.image("E:\OneDrive\Desktop\Qubic-Dashboard\logo.png", width=120)
+        st.image("logo.png", width=120)
         st.markdown("</div>", unsafe_allow_html=True)
 
         st.markdown('<div class="sidebar-nav">', unsafe_allow_html=True)
