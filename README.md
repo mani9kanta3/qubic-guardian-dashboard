@@ -166,7 +166,7 @@ No exchange or trader wants to manually monitor hundreds of trades.
 
 ## 🖥️ Dashboard 
 
-## 📌 Page 1 — Real-Time Transaction Monitor
+### 📌 Page 1 — Real-Time Transaction Monitor
 
 This page displays the live trade feed coming directly from the **Qubic EasyConnect → n8n** pipeline.
 
@@ -183,7 +183,7 @@ This page displays the live trade feed coming directly from the **Qubic EasyConn
 
 ---
 
-## 📌 Page 2 — Risk Analytics & Distribution
+### 📌 Page 2 — Risk Analytics & Distribution
 
 This page provides a complete breakdown of **risk levels** across the Qubic ecosystem.
 
@@ -198,7 +198,7 @@ This page provides a complete breakdown of **risk levels** across the Qubic ecos
 
 ---
 
-## 📌 Page 3 — Whale Movements & Token Behavior
+### 📌 Page 3 — Whale Movements & Token Behavior
 
 This page focuses on large trades, major market movers, and token-level behavioral patterns.
 
@@ -213,7 +213,7 @@ This page focuses on large trades, major market movers, and token-level behavior
 
 ---
 
-## 📌 Page 4 — Historical Trends & Category Insights
+### 📌 Page 4 — Historical Trends & Category Insights
 
 This page offers deeper historical and aggregated ecosystem intelligence.
 
@@ -263,24 +263,12 @@ Returns full JSON dataset for Streamlit.
 
 ---
 
-## 📱 Telegram Alert Format (HTML Mode)
+## 📱 Telegram Alert Format
 
-Example alert:
+Alert:
 
-🛡 <b>Qubic Guardian Alert</b>
+<img width="717" height="600" alt="image" src="https://github.com/user-attachments/assets/b31f4294-6cba-4430-bd05-20497231ed7e" />
 
-<b>Risk Level:</b> 🔴 HIGH
-<b>Asset:</b> QXTRADE
-<b>Shares:</b> 8,119,605
-<b>Direction:</b> BUY (bid)
-<b>Trade Value:</b> 354.40 USDT
-<b>Risk Score:</b> 55
-<b>Anomaly Tags:</b> very_large, whale_shares, illiquid_category
-
-🤖 <b>AI Insights:</b>
-Suspiciously large buy order recorded on an illiquid asset...
-
-🔗 <b>TxID:</b> abcxyz12345
 
 
 ---
