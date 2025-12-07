@@ -90,16 +90,14 @@ This acts as the **data warehouse** for the dashboard.
 ---
 
 ### 6️⃣ Telegram Alerts
-Clean, color-coded alert format with emojis:
 
-- 🔴 **HIGH** / 🟡 **MEDIUM** / 🟢 **LOW**  
-- Asset + Buy/Sell direction  
-- USDT value  
-- Shares  
-- Risk tags  
+- Risk Level
+- Risk Score
+- Asset   
+- Shares
+- Trade Value
+- TxID
 - AI-generated summary  
-- TxID  
-- Logged confirmation message  
 
 ---
 
